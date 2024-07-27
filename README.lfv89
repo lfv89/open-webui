@@ -1,0 +1,3 @@
+export DOCKER_BUILDKIT=1
+docker build --platform linux/amd64 -t lfv89/open-webui:2 .
+docker push lfv89/open-webui:2
